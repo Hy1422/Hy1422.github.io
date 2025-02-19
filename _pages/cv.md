@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+* M.S. in Communication Technology and System Design, Technical University of Denmark, 2023
+* B.S. in Electronic Information Engineering, Beijing Institute of Technology, 2019
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Work experience
+* Aug 2023 - Present: AI Software Developer (Remote)
+  * Developing a responsive AI web application with integrated RAG database
+  * Duties include:
+    * Frontend development with Next.js/React
+    * Backend RESTful APIs using C# and .NET
+    * Workflow development with LangChain and ChromaDB
+  
+* Sep 2022 - Oct 2022: Test Engineer Intern
+  * Smart GmbH, Stuttgart, Germany
+  * Duties included:
+    * Testing and vehicle preparation
+    * Road tests and OTA updates support
+    * On-site support for Smart #1 media test drive event
+    * Daily maintenance and troubleshooting
+  * Supervisor: Technical Team Lead
+  * 
+* Jul 2022 - Aug 2022: Business Assistant Intern
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Projects
+* Evaluation of Matrix Inversion Algorithms on Flexible 1D/2D Systolic Arrays (Jan 2023 - Jul 2023)
+  * Master Thesis at Huawei Research Center Zurich
+  * Achievements:
+    * Theoretical analysis of matrix inversion algorithms
+    * Hardware implementation simulation using SCALE-Sim and MATLAB
+    * Design of systolic array structure for LDL decomposition
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Multi-view Image Synthesis (Mar 2022 - May 2022) 
+  * Special Course Project Under Prof. Søren Forchhammer
+  * Research on light field image reconstruction algorithms
+  * Implementation of MPI-based and NeRF-based models
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Single Image Super-Resolution Algorithm Based on Deep Learning (Jan 2019 - May 2019)
+  * Bachelor Thesis 
+  * Achievements:
+    * Implementation of traditional and deep learning-based methods
+    * Achieved 34dB PSNR and 0.90 SSIM performance
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  * Bachelor Thesis 
+  * Achievements:
+    * Implementation of traditional and deep learning-based methods
+    * Achieved 34dB PSNR and 0.90 SSIM performance
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
